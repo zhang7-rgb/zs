@@ -13,7 +13,7 @@ def main():
     # Check if zs.py exists
     if not os.path.exists("zs.py"):
         print("[!] zslk.py not found!")
-        print("[*] Please make sure zslk.py is in the same directory")
+        print("[*] Please make sure zs.py is in the same directory")
         sys.exit(1)
     
     # Check Python version
